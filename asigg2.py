@@ -14,7 +14,7 @@ def read_text_file(file_path):
         print(f"File '{file_path}' not found.")
         return None
 
-file_path =( r"D:\\cloud computing\\paragraphs.txt")  
+file_path =( r"paragraphs.txt")  
 text = read_text_file(file_path)
 if text:
     print("File contents:")
